@@ -219,6 +219,50 @@ footer a {
     font-size: 13px;
     opacity: 0.6;
 }
+
+@media (max-width: 1024px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 92%;
+        padding: 30px 15px;
+    }
+
+    textarea {
+        height: 180px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    #readerArea {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    #wordDisplay {
+        font-size: clamp(48px, 12vw, 90px);
+    }
+
+    textarea {
+        height: 160px;
+    }
+}
 </style>
 </head>
 <body>
